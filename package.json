@@ -85,5 +85,8 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
+  },
+  "dependencies": {
+    "cssnano": "^7.0.6"
   }
 }
