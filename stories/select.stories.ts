@@ -71,7 +71,7 @@ const MANGAS = [
 export const Primary: Story = {
   args: {
      options :MANGAS,
-     value :"One Piece"
+     value :"Boruto"
   },
 };
 
