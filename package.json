@@ -16,10 +16,13 @@
     "pret": "prettier -c .",
     "pret:fix": "prettier -w .",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "build": "npm run pret && npm run lint && npm run clean && rollup -c && npm run tailwind-build",
-    "dev": "next dev -p 8888",
+    "build-prod": "npm run pret && npm run lint && npm run clean && rollup -c && npm run tailwind-build",
+    "dev-prod": "next dev -p 8888",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
